@@ -25,3 +25,13 @@
 13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits.
 
 14. `git commit -m "<your commit message>"` -> If we want to avoid opening the prompt to add commit message we can use this command
+
+15. `git remote` -> This commands helps you to connect one repository to any another repository. As a command it will list down all the remote connection
+
+16. Remote Connection -> It helps you to link two git repositories for uploading and downloading changes from each other.
+
+17. `git remote add <name of remote> <link of remote>` -> This command helps us to create a remote connection to the link of remote with name mentioned in command. The default name is origin
+
+18. `git remote rm <name of remote>` -> This command deletes the remote connection with remote name mentioned in this command.
+
+19. `git remote rename <oldname> <newname>` -> This command renames the remote connection.
