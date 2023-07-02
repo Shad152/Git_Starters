@@ -17,3 +17,9 @@
 9. `git log` -> list downs all the commits of the repository.
 
 10. `git restore` -> The "restore" command helps to unstage or even discard uncommitted local changes. On the one hand, the command can be used to undo the effects of git add and unstage changes you have previously added to the Staging Area.
+
+11. `git restore --staged` -> With the --staged option, however, the file will only be removed from the Staging Area - but its actual modifications will remain untouched.
+
+12. `Diff between git rm and git restore` -> If you want to move the whole file back to the untracked state, then we do git rm, otherwise if we just want the changes to be moved in working or staging area then we do git restore.
+
+13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits.
