@@ -35,3 +35,5 @@
 18. `git remote rm <name of remote>` -> This command deletes the remote connection with remote name mentioned in this command.
 
 19. `git remote rename <oldname> <newname>` -> This command renames the remote connection.
+
+20. `git add .` -> This command will add all files from working area to staging area.
