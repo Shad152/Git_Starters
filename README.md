@@ -13,3 +13,7 @@
 7. `commit` -> Commit is particular version of a project. It captures a snapshot of the project's staged changes and create a version out of it.
 
 8. `git commit` -> git commit is used to create a snapshot of the staged changes along a timeline of a Git projects history.
+
+9. `git log` -> list downs all the commits of the repository.
+
+10. `git restore` -> The "restore" command helps to unstage or even discard uncommitted local changes. On the one hand, the command can be used to undo the effects of git add and unstage changes you have previously added to the Staging Area.
