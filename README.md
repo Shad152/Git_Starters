@@ -39,3 +39,9 @@
 20. `git add .` -> This command will add all files from working area to staging area.
 
 21. `git pull <remote name> <branch name>` -> download the latest changes from the branch of the mentioned remote to your local repo.
+
+22. `Stash` -> stash is a feature that allows you to temporarily save your changes in a "stash" without committing them.The stash essentially allows you to store your modifications separately, so you can return to them later.
+
+23. `git stash` -> When you have made some modifications to your working directory, but you're not ready to commit them yet, you can use the `git stash` command.
+
+24. `git stash apply` -> will bring back the last stash that you have stashed. This command applies the changes from a stash to your working directory. By default, it applies the most recent stash.
